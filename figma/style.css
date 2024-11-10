@@ -1,0 +1,462 @@
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: o;
+}
+/* NAV */
+.container {
+    width: 1346px;
+    /* border: 1px solid black; */
+    margin: 0 auto;
+}
+a {
+    text-decoration: inherit;
+    color: inherit;
+}
+.nav{
+    padding: 57px 0 ;
+}
+.nav__wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.nav__list {
+    display: flex;
+    gap: 37px;
+    list-style: none;
+    align-items: center;
+}
+.nav__list__item  {
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: black;
+}
+a:hover {
+    color: grey;
+}
+.btn {
+    background: #CAA892;
+    padding: 5px 18px;
+    border-radius: 15px 0 15px 0;
+    color: white;
+    margin-left: 30px;
+}
+/* HERO */
+.hero {
+    margin-top: 43px;
+}
+.hero__wrapper {
+    display: flex;
+    align-items: center;
+    gap: 44px;
+    padding: 7px 19px;
+}
+.hero__btn-2:hover {
+    color: rgb(0, 0, 0);
+}
+.hero__btn-2{
+    width: 142.15px;
+    margin: 20px 20px;
+    background: #37806B;
+    padding: 7px 19px;
+    border-radius: 16px 0 16px 0;
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+    border: none;
+    margin-top: 46px;
+    margin-left: 3px;
+}
+ .hero__sub-title {
+    font-size: 20px;
+    font-weight: 700;
+    color: grey;
+ }
+ .hero__title {
+    font-size: 72px;
+    font-weight: 600;
+    line-height: 78px;  
+    margin-top: 12px;
+ }
+ .hero__data {
+    margin-top: 26px;
+    font-size: 18px;
+    line-height: 30px;
+    color: #646464;
+    margin-top: -30px;
+ }
+ .hero__img img {
+    border-radius: 150px 0 150px 0;
+ }
+ /* our-sevice */
+.our-service__wrapper {
+    display: flex;
+    gap: 37px;
+}
+.card {
+    border-radius: 60px 0 60px 0;  
+    box-shadow: 0px 8px 20px 0px #00000024;
+    background: #FFFFFF;
+    padding: 39px 59px;
+    margin-top: 10px;
+}
+.card:hover {
+    background: #CAA892;
+    transition: 0.4s ease;
+    color: white;
+}
+.card__info:hover{
+    color: white;
+}
+.card__info {
+    margin-top: 12px;
+    width: 306px;
+    height: 84px;
+    color: grey;
+}
+.card__title {
+    width: 180px;
+    height: 24px;
+}
+.our-sevice__sub-title {
+    width: 130px;
+    height: 28px;
+    color: grey;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+}
+ .our-sevice__title {
+    width: 276px;
+    height: 78px;
+    font-weight: 500;
+    font-size: 48px;
+    margin-top: -3px;
+ }
+ /* ABOUT US */
+.about-us__wrapper {
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    margin-top: 200px;
+    gap: 115px;
+}
+.about-us__sub-title {
+    width: 96px;
+    height: 30px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    color: grey;
+}
+.about-us__title {
+    width: 490px;
+    height: 114px;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 57px;
+    margin-top: -3px;
+}
+.about-us__info {
+    width: 543px;
+    height: 240px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: -10px;
+    color: grey;
+}
+.about-us__btn-3:hover {
+    color: black;
+}
+.about-us__btn-3 {
+    width: 142.15px;
+    height: 42.81px;
+    border-radius: 20px 0px 20px 0px;
+    background: #37806B;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+}
+/* the market */
+.the-market__wrapper {
+    display: flex;
+    gap: 115px;
+    margin: 0 auto;
+    align-items: center;
+    margin-top: 200px;
+}
+.the-market__btn-4:hover {
+    color: black;
+}
+.the-market__btn-4 {
+    width: 142.15px;
+    height: 42.81px;
+    border-radius: 20px 0px 20px 0px;
+    background: #37806B;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    margin-top: 600px;
+    margin-left: -540px;
+}
+.the-market__sub-title {
+    font-size: 300px;
+    font-weight: 650;
+    width: 327px;
+    height: 280px;
+    margin-right: -430px;
+    margin-top: -580px;
+} 
+.the-market__title {
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 65px;
+    margin-top: 250px;
+}
+.the-market__img img {
+    border-radius: 150px 0 150px 0;
+}
+/* Client says about us */
+.Client__sub-title {
+    margin-left: 630px;
+}
+.Client__title {
+    margin-left: 450px;
+    font-size: 50px;
+    font-weight: 500;
+    margin-top: -5px;
+}
+.Client__wrapper {
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    padding: 7px 19px;
+    gap: 40px;
+}
+.card-client:hover {
+    background: #CAA892;
+}
+.card__sub-title:hover{
+    color: white;
+    
+}
+.card__info1:hover{
+    color: white;
+}
+.card-client {
+    box-shadow: 7px 7px 30px 5px #42605426;
+    width: 665px;
+    height: 226px;
+    border-radius: 70px 0 70px 0;
+    display: flex;
+   align-items: center;
+   padding: 0px 40px;
+   margin-top: 80px;
+}
+.card__title1 {
+    font-weight: 700;
+    font-size: 24px;
+}
+.card__sub-title{
+    font-size: 18px;
+    font-weight: 500;
+    color: grey;
+}
+.marl{
+    margin-left: 40px;
+}
+.card__img img {
+    border-radius: 60px 0 60px 0;
+}
+.card__info1{
+    color: grey;
+}
+/* NEWS */
+.news__wrapper {
+    display: flex;
+   flex-direction: row;
+   gap: 150px;
+   /* background: rgba(152, 152, 152, 0.078); */
+}
+.news__img img {
+    margin-top: 300px;
+}
+.news__head {
+    margin-top: 250px;
+}
+.news__title {
+    margin-bottom: -40px;
+}
+.news__sub-title {
+    font-weight: 500;
+    font-size: 48px;
+    width: 342px;
+    height: 28px;
+    margin-bottom: -200px;
+}
+.news__data {
+    color: grey;
+}
+.news__btn-6:hover{
+    color: black;
+}
+.news__btn-6 {
+    border-radius: 20px 0px 20px 0px;
+    background: #37806B;
+    border: none;
+    padding: 10px 25px;
+    font-size: 18px;
+    line-height: 28px;
+    color: white;
+    margin-top: 25px;
+    font-weight: 700;
+}
+.news__img img {
+    border-radius: 70px 0 70px 0;
+}
+/* SIGN UP */
+.sign-up__wrapper {
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+
+}
+.sign-up__title {
+    font-weight: 500;
+    font-size: 48px;line-height: 28px;
+    margin-top: 300px;
+}
+.sign-up__line {
+    border: 1px solid #C4C4C4;
+    margin-right: 450px;
+    margin-left: 450px;
+}
+.sign-up__info {
+    color: grey;
+    font-weight: 400;
+    font-size: 18px;
+}
+.subscribe-form {
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 20px 0 20px 0;
+    overflow: hidden;
+    
+}
+
+.subscribe-form input {
+    border: none;
+    padding: 10px;
+    width: 772px;
+    height: 52px;
+    outline: none;
+    
+}
+
+.subscribe-form button {
+    background-color: #357c61;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px 0 20px 0;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.subscribe-form button:hover {
+    background-color: #2b6651;
+    color: black;
+
+}
+.container7 {
+    width: 1920px;
+    height: 473px;
+}
+.footer__wrapper {
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 200px;
+    margin-left: 800px;
+}
+.footer__head {
+    display: flex;
+    margin-left: 1200px;
+    margin-top: -160px;
+    color: grey;
+}
+.footer__company{
+    margin-left: 50px;
+    color: grey;
+}
+.footer__contact-us {
+    margin-left: 50px;
+    color: grey;
+}
+.header1 {
+    color: black;
+}
+.header2 {
+    color: black;
+}
+.header3 {
+    color: black;
+}
+.footer__link {
+    color: black;
+}
+.footer__follow-us {
+    margin-left: 50px;
+}
+.footer__btn:hover{
+    background: #357c61;
+    color: white;
+}
+.footer__btn {
+    border-radius: 50px;
+    width: 28px;
+    height: 28px;
+    border: none;
+}
+.footer__btn2:hover{
+    background: #357c61;
+    color: white;
+}
+.footer__btn2 {
+    border-radius: 50px;
+    width: 28px;
+    height: 28px;
+    border: none;
+}
+.footer__btn3:hover{
+    background: #357c61;
+    color: white;
+}
+.footer__btn3 {
+    border-radius: 50px;
+    width: 28px;
+    height: 28px;
+    border: none;
+}
+.footer__btn4:hover{
+    background: #357c61;
+    color: white;
+}
+.footer__btn4 {
+    border-radius: 50px;
+    width: 28px;
+    height: 28px;
+    border: none;
+}
+.footer__line2 {
+    margin-top: -200px;
+}
+.footer__ends {
+    text-align: center;
+    margin-right: 200px;
+    
+}
